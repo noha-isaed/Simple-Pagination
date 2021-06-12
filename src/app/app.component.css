@@ -1,0 +1,82 @@
+
+body {
+    text-align: center;
+}
+
+button{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgb(255, 253, 253);
+  color: #0d1dff;
+  border-color: #ddd;
+  border-style: hidden;
+  font-size: 20px;
+ 
+}
+
+button:hover {
+  background-color: #0d1dff;
+  color: rgb(255, 253, 253);
+}
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    margin-right: 2%;
+  }
+  
+  .next {
+    background-color: #0d1dff;
+    color: white;
+    margin-left: 2%;
+  }
+
+  #Arrow {
+    display: inline-block;
+    width: 100%;
+    height:30%;
+    margin-bottom: 5%;
+  }
+  h2{
+    display: inline-block;
+  }
+  #listNumbers{
+
+    display: inline-block;
+    width: 100%;
+    height:30%;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+
+  }
+  
+  td, th {
+    border: 1px solid #070707;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+  
+  #Information{
+    display: inline-block;
+    width: 100%;
+    height:30%;
+  }
+  table.center{
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  #Number{
+    display: inline-block;
+    text-align: center;
+  }

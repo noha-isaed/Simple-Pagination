@@ -1,0 +1,42 @@
+
+<html>
+  <head>
+
+  </head>
+  <body>
+
+<div id="Information">
+<table class="center">
+  <tr>
+    <th>First Name</th>
+    <th>Last Nmae</th>
+    <th>Age</th>
+    <th>Email</th>
+
+  </tr>
+  <tr *ngFor = "let user of userInformation">
+    <td>{{user.firstname}}</td>
+    <td>{{user.lastname}}</td>
+    <td>{{user.age}}</td>
+    <td>{{user.email}}</td> 
+  </tr>
+
+</table>
+</div>
+
+<div id="Arrow">
+<button  *ngIf="counter != 0 " (click)= "DisplayDataOnClickPrevious()" class="previous" >&laquo; Previous</button>
+<h2> 1-10 of 2,747 People</h2>
+<button  *ngIf="counter != People.length -1 "  (click)= "DisplayDataOnclickNext()" class="next" >Next &raquo;</button>
+</div>
+
+
+
+<div id="listNumbers" >
+<div id = "Number" *ngFor = "let number of Numbers ">
+   <button (click)= "DisplayData(number)">{{number}}</button>
+</div>
+</div>
+
+</body>
+</html>
